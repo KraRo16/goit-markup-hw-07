@@ -1,0 +1,81 @@
+.employees-section {
+    background-color: var(--fourth-accent-color);
+}
+
+.employees-list {
+    display: flex;
+}
+
+.employees-card {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+    
+}
+
+
+.employees-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-accent-color);
+    margin-bottom: 10px;
+}
+
+.employees-position {
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--third-accent-color);
+    margin-bottom: 16px;
+}
+
+.employees-description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+}
+}
+
+
+.social-list-icon {
+    fill: #AFB1B8;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .social-list-link:hover &,
+    .social-list-link:focus & {
+    fill: #ffffff;
+}
+}
+
+
