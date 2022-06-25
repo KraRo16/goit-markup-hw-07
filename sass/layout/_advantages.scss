@@ -2,11 +2,11 @@
     display: flex;
 }
 
-.advantages-item:not(:last-child) {
+.advantages-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.advantages-list-title {
+.advantages-list__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -17,7 +17,7 @@
     width: 270px;
 }
 
-.advantages-list-description {
+.advantages-list__description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -34,7 +34,7 @@
     background-color: var(--fourth-accent-color);
 }
 
-.advantages-icon-item {
+.advantages-icon__item {
     fill: var(--secondary-accent-color);
 }
 
