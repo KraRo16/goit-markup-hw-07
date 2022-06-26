@@ -1,14 +1,14 @@
-.footer-subscription {
+.subscription {
     margin-left: 92px;
 }
 
-.subscription-form-field {
+.subscription-form {
     display: flex;
     margin-right: auto;
 
 }
 
-.subscription-modal-btn {
+.subscription-form__modal-btn {
     min-width: 20px;
     font-family: inherit;
     font-weight: 700;
@@ -35,11 +35,11 @@
 
 
 
-.subscription-modal-btn-icon {
+.subscription__btn-icon {
     margin-left: 10px;
 }
 
-.subscription-input {
+.subscription-form__input {
     width: 358px;
     height: 50px;
     margin-right: 12px;

@@ -1,17 +1,22 @@
 .what-we-do-section {
+    padding-top: 0px;
+}
+
+
+.what-we-do {
     display: flex;
 }
 
-.what-we-do-gallery-item:not(:last-child) {
+.what-we-do__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.what-we-do-card {
+.what-we-do__card {
     position: relative;
     overflow: hidden;
 }
 
-.what-we-do-description {
+.what-we-do__card_description {
     position: absolute;
     display: flex;
     justify-content: center;

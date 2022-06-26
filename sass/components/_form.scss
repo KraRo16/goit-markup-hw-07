@@ -1,4 +1,4 @@
-.contact-form {
+.form {
     display: flex;
     flex-direction: column;
     padding: 40px;
@@ -16,13 +16,13 @@
     margin-bottom: 12px;
 }
 
-.contact-form-field {
+.form__field {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
 }
 
-.contact-form-field-name {
+.form__field_name {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -31,7 +31,7 @@
     margin-bottom: 4px;
 }
 
-.contact-form-input {
+.form-wrapper__input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -39,8 +39,8 @@
     padding-left: 42px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .contact-form-input-wrapper:hover &,
-    .contact-form-input-wrapper:focus-within & {
+    .form-wrapper:hover &,
+    .form-wrapper:focus-within & {
     border: 1px solid #2196F3;
     border-radius: 4px;
 }
@@ -48,7 +48,7 @@
 
 
 
-.contact-form-message {
+.form__message {
     resize: none;
     display: block;
     width: 100%;
@@ -74,33 +74,29 @@
 }
 }
 
-.contact-form-field-message {
+.form__field_margin-botton {
     margin-bottom: 20px;
 }
 
-
-
-
-.contact-form-input-wrapper {
+.form-wrapper {
     position: relative;
 
 }
 
-
-.contact-form-icon {
+.form-wrapper__icon {
     position: absolute;
     fill: var(--secondary-accent-color);
     top: 14px;
     left: 14px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .contact-form-input-wrapper:focus-within &,
-    .contact-form-input-wrapper:hover & {
+    .form-wrapper:focus-within &,
+    .form-wrapper:hover & {
     fill: #2196F3;
 }
 }
 
-.policy-user {
+.form__policy-user {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -108,13 +104,13 @@
     color: var(--third-accent-color);
 }
 
-.policy {
+.form__policy {
     color: var(--accent-color);
 }
 
 
 
-.contact-form-checkbox-label {
+.checkbox__label {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +127,7 @@
         margin-right: 8px;
     }
     
-    .contact-form-checkbox:checked+&::before {
+    .checkbox:checked+&::before {
         background-color: var(--accent-color);
         border-color: var(--accent-color);
         background-image: url(../images/icon/mark-icon.svg);
@@ -139,12 +135,12 @@
         background-position: center center;
     }
     
-    .contact-form-checkbox:focus+&::before {
+    .checkbox:focus+&::before {
         outline: 1px solid var(--secondary-accent-color);
     }
 }
 
-.contact-modal-btn {
+.form__modal-btn {
     align-self: center;
     min-width: 20px;
     font-family: inherit;
