@@ -1,12 +1,12 @@
-.advantages-list {
+.advantages {
     display: flex;
 }
 
-.advantages-list__item:not(:last-child) {
+.advantages__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.advantages-list__title {
+.advantages__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -17,7 +17,7 @@
     width: 270px;
 }
 
-.advantages-list__description {
+.advantages__description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
