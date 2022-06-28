@@ -2,7 +2,7 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.page-header-container {
+.page-header__container {
     display: flex;
     align-items: center;
 }
@@ -47,7 +47,7 @@
 }
 
 
-.link.current {
+.link.menu__link_current {
     color: var(--accent-color);
 }
 
@@ -71,10 +71,6 @@
 }
 
 
-.menu-contact__logo-img-email {
-    justify-content: flex-end;
-}
-
 .menu-contact__logo-img {
     display: flex;
     margin-right: 10px;
@@ -87,11 +83,11 @@
 }
 }
 
-.e-mail {
+.menu-contact__link_left {
     width: 161px;
 }
 
-.current {
+.menu__link_current {
     position: relative;
 
     &::after {

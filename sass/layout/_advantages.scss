@@ -24,7 +24,7 @@
     color: var(--third-accent-color);
 }
 
-.advantages-icon {
+.advantages__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,7 +34,7 @@
     background-color: var(--fourth-accent-color);
 }
 
-.advantages-icon__item {
+.advantages__icon {
     fill: var(--secondary-accent-color);
 }
 

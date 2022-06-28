@@ -72,7 +72,7 @@ body {
   padding-bottom: 94px;
 }
 
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -92,11 +92,11 @@ body {
   margin-right: 92px;
 }
 
-.logo__theme-light_color {
+.logo__dark {
   color: var(--primary-logo-color-theme-light);
 }
 
-.logo__theme-dark_color {
+.logo__light {
   color: var(--primary-logo-color-theme-dark);
 }
 
@@ -299,7 +299,7 @@ body {
   border-bottom: 1px solid #ECECEC;
 }
 
-.page-header-container {
+.page-header__container {
   display: flex;
   align-items: center;
 }
@@ -340,7 +340,7 @@ body {
   color: var(--accent-color);
 }
 
-.link.current {
+.link.menu__link_current {
   color: var(--accent-color);
 }
 
@@ -360,10 +360,6 @@ body {
   color: var(--accent-color);
 }
 
-.menu-contact__logo-img-email {
-  justify-content: flex-end;
-}
-
 .menu-contact__logo-img {
   display: flex;
   margin-right: 10px;
@@ -374,14 +370,14 @@ body {
   fill: var(--accent-color);
 }
 
-.e-mail {
+.menu-contact__link_left {
   width: 161px;
 }
 
-.current {
+.menu__link_current {
   position: relative;
 }
-.current::after {
+.menu__link_current::after {
   content: "";
   display: block;
   position: absolute;
@@ -464,7 +460,7 @@ body {
   color: var(--third-accent-color);
 }
 
-.advantages-icon {
+.advantages__box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -474,11 +470,11 @@ body {
   background-color: var(--fourth-accent-color);
 }
 
-.advantages-icon__item {
+.advantages__icon {
   fill: var(--secondary-accent-color);
 }
 
-.what-we-do-section {
+.section_no-padding-top {
   padding-top: 0px;
 }
 
@@ -495,7 +491,7 @@ body {
   overflow: hidden;
 }
 
-.what-we-do__card_description {
+.what-we-do__description {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -513,7 +509,7 @@ body {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.employees-section {
+.section_background-color {
   background-color: var(--fourth-accent-color);
 }
 
@@ -521,16 +517,16 @@ body {
   display: flex;
 }
 
-.employees__card {
+.employees__item {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.employees__card:not(:last-child) {
+.employees__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.employees-description__name {
+.employees__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -540,7 +536,7 @@ body {
   margin-bottom: 10px;
 }
 
-.employees-description__position {
+.employees__text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -549,7 +545,7 @@ body {
   margin-bottom: 16px;
 }
 
-.employees-description {
+.employees__box {
   padding-top: 30px;
   padding-bottom: 30px;
 }

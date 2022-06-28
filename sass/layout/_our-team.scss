@@ -1,4 +1,4 @@
-.employees-section {
+.section_background-color {
     background-color: var(--fourth-accent-color);
 }
 
@@ -6,7 +6,7 @@
     display: flex;
 }
 
-.employees__card {
+.employees__item {
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -18,7 +18,7 @@
 }
 
 
-.employees-description__name {
+.employees__title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -28,7 +28,7 @@
     margin-bottom: 10px;
 }
 
-.employees-description__position {
+.employees__text {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -37,7 +37,7 @@
     margin-bottom: 16px;
 }
 
-.employees-description {
+.employees__box {
     padding-top: 30px;
     padding-bottom: 30px;
 }

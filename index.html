@@ -19,12 +19,12 @@
 <body>
   <!--HEADER-->
   <header class="page-header">
-    <div class="container page-header-container">
+    <div class="container page-header__container">
       <nav class="navigation">
-        <a class="logo link" href="/" lang="en">Web<span class="logo__theme-light_color">Studio</span></a>
+        <a class="logo link" href="/" lang="en">Web<span class="logo__dark">Studio</span></a>
         <ul class="menu list">
           <li class="menu__item">
-            <a class="menu__link link current" href="./index.html">Студия</a>
+            <a class="menu__link link menu__link_current" href="./index.html">Студия</a>
           </li>
           <li class="menu__item">
             <a class="menu__link link" href="./portfolio.html">Портфолио</a>
@@ -36,10 +36,9 @@
       </nav>
       <ul class="menu-contacts list">
         <li class="menu-contact__item">
-          <a class="menu-contact__link e-mail link" href="mailto:info@devstudio.com">
+          <a class="menu-contact__link menu-contact__link_left link" href="mailto:info@devstudio.com">
             <svg class="menu-contact__logo-img" widht="16" height="12">
-              <use class="menu-contact__logo-img-item menu-contact__logo-img-email"
-                href="./images/icon/sprite.svg#email"></use>
+              <use href="./images/icon/sprite.svg#email"></use>
             </svg>
             info@devstudio.com
           </a>
@@ -47,7 +46,7 @@
         <li class="menu-contact__item">
           <a class="menu-contact__link link" href="tel:+380961111111">
             <svg class="menu-contact__logo-img" width="10" height="16">
-              <use class="menu-contact__logo-img-item" href="./images/icon/sprite.svg#phone"></use>
+              <use href="./images/icon/sprite.svg#phone"></use>
             </svg>
             +38 096 111 11 11
           </a>
@@ -69,8 +68,8 @@
         <h2 class="visually-hidden">Наши преимущества</h2>
         <ul class="advantages list">
           <li class="advantages__item">
-            <div class="advantages-icon">
-              <svg class="advantages-icon__item" width="70px" height="70px">
+            <div class="advantages__box">
+              <svg class="advantages__icon" width="70px" height="70px">
                 <use href="./images/icon/sprite.svg#advantages-1"></use>
               </svg>
             </div>
@@ -81,8 +80,8 @@
               позиции.</p>
           </li>
           <li class="advantages__item">
-            <div class="advantages-icon">
-              <svg class="advantages-icon__item" width="70px" height="70px">
+            <div class="advantages__box">
+              <svg class="advantages__icon" width="70px" height="70px">
                 <use href="./images/icon/sprite.svg#advantages-2"></use>
               </svg>
             </div>
@@ -92,8 +91,8 @@
             </p>
           </li>
           <li class="advantages__item">
-            <div class="advantages-icon">
-              <svg class="advantages-icon__item" width="70px" height="70px">
+            <div class="advantages__box">
+              <svg class="advantages__icon" width="70px" height="70px">
                 <use href="./images/icon/sprite.svg#advantages-3"></use>
               </svg>
             </div>
@@ -103,8 +102,8 @@
             </p>
           </li>
           <li class="advantages__item">
-            <div class="advantages-icon">
-              <svg class="advantages-icon__item" width="70px" height="70px">
+            <div class="advantages__box">
+              <svg class="advantages__icon" width="70px" height="70px">
                 <use href="./images/icon/sprite.svg#advantages-4"></use>
               </svg>
             </div>
@@ -116,41 +115,41 @@
       </div>
     </section>
     <!--WHAT WE DO-->
-    <section class="what-we-do-section section">
+    <section class="section section_no-padding-top">
       <div class="container">
-        <h2 class="section-title">Чем мы занимаемся</h2>
+        <h2 class="section__title">Чем мы занимаемся</h2>
         <ul class="what-we-do list">
           <li class="what-we-do__item">
             <div class="what-we-do__card">
               <img src="./images/what-we-do/what-we-do-img-1.jpg" alt="верстка" width="370" height="294" />
-              <p class="what-we-do__card_description">Десктопные приложения</p>
+              <p class="what-we-do__description">Десктопные приложения</p>
             </div>
           </li>
           <li class="what-we-do__item">
             <div class="what-we-do__card">
               <img src="./images/what-we-do/what-we-do-img-2.jpg" alt="дизайн" width="370" height="294" />
-              <p class="what-we-do__card_description">Мобильные приложения</p>
+              <p class="what-we-do__description">Мобильные приложения</p>
             </div>
           </li>
           <li class="what-we-do__item">
             <div class="what-we-do__card">
               <img src="./images/what-we-do/what-we-do-img-3.jpg" alt="внешнее оформление" width="370" height="294" />
-              <p class="what-we-do__card_description">Дизайнерские решения</p>
+              <p class="what-we-do__description">Дизайнерские решения</p>
             </div>
           </li>
         </ul>
       </div>
     </section>
     <!--OUR TEAM-->
-    <section class="employees-section section">
+    <section class="section_background-color section">
       <div class="container">
-        <h2 class="section-title">Наша команда</h2>
+        <h2 class="section__title">Наша команда</h2>
         <ul class="employees list">
-          <li class="employees__card">
+          <li class="employees__item">
             <img src="./images/our-team/igor-demyanenko.jpg" alt="работник 1" width="270" height="260" />
-            <div class="employees-description">
-              <h3 class="employees-description__name">Игорь Демьяненко</h3>
-              <p class="employees-description__position" lang="en">Product Designer</p>
+            <div class="employees__box">
+              <h3 class="employees__title">Игорь Демьяненко</h3>
+              <p class="employees__text" lang="en">Product Designer</p>
               <ul class="social list">
                 <li class="social__item">
                   <a href="" class="social__link">
@@ -183,11 +182,11 @@
               </ul>
             </div>
           </li>
-          <li class="employees__card">
+          <li class="employees__item">
             <img src="./images/our-team/olga-repina.jpg" alt="работник 2" width="270" height="260" />
-            <div class="employees-description">
-              <h3 class="employees-description__name">Ольга Репина</h3>
-              <p class="employees-description__position" lang="en">Frontend Developer</p>
+            <div class="employees__box">
+              <h3 class="employees__title">Ольга Репина</h3>
+              <p class="employees__text" lang="en">Frontend Developer</p>
               <ul class="social list">
                 <li class="social__item">
                   <a href="" class="social__link">
@@ -220,11 +219,11 @@
               </ul>
             </div>
           </li>
-          <li class="employees__card">
+          <li class="employees__item">
             <img src="./images/our-team/nikolaj-tarasov.jpg" alt="работник 3" width="270" height="260" />
-            <div class="employees-description">
-              <h3 class="employees-description__name">Николай Тарасов</h3>
-              <p class="employees-description__position" lang="en">Marketing</p>
+            <div class="employees__box">
+              <h3 class="employees__title">Николай Тарасов</h3>
+              <p class="employees__text" lang="en">Marketing</p>
               <ul class="social list">
                 <li class="social__item">
                   <a href="" class="social__link">
@@ -257,11 +256,11 @@
               </ul>
             </div>
           </li>
-          <li class="employees__card">
+          <li class="employees__item">
             <img src="./images/our-team/mihail-ermakov.jpg" alt="работник 4" width="270" height="260" />
-            <div class="employees-description">
-              <h3 class="employees-description__name">Михаил Ермаков</h3>
-              <p class="employees-description__position" lang="en">UI Designer</p>
+            <div class="employees__box">
+              <h3 class="employees__title">Михаил Ермаков</h3>
+              <p class="employees__text" lang="en">UI Designer</p>
               <ul class="social list">
                 <li class="social__item">
                   <a href="" class="social__link">
@@ -300,7 +299,7 @@
     <!--OUR CLIENTS-->
     <section class="section">
       <div class="container">
-        <h2 class="section-title">Постоянные клиенты</h2>
+        <h2 class="section__title">Постоянные клиенты</h2>
         <ul class="clients list">
           <li class="clients__item">
             <a href="" class="clients__link">
@@ -352,8 +351,7 @@
   <footer class="footer">
     <div class="container footer-container__baseline">
       <div class="footer-contacts">
-        <a class="footer__logo logo link" href="/" lang="en">Web<span
-            class="footer__logo logo__theme-dark_color">Studio</span></a>
+        <a class="footer__logo logo link" href="/" lang="en">Web<span class="footer__logo logo__light">Studio</span></a>
         <!--CONTACT INFORMATION-->
         <address class="address">
           <ul class="list">
